@@ -14,6 +14,6 @@ The code in this file handles data cleaning process and feature engineering base
 This file contains all the methodologies we tried. Including Linear regression, Gradient Boosting, Random Forest, Adaboost and Extra Tree. K-Fold Cross validation is used to compare the performance of each model based on their Mean Absolute Error(MAE). It also includes some vairable selection process for linear regression and random forest, and other feature we tried to modify such as adding one hot encoder. The last part of code apply the model to compute the final result. The full dataset is split into two parts: land without easement as the training set, and land with easement as the testing set. We apply our best model in predicting land price (ranodm forest) to compare the land price between with and without easement. 
 
 ### model.ipynb:
-This shows the detail of the parameter tuning process of our final random tree model.
+This shows the detail of the variable selection, parameter tuning process and cross validation of our final random tree model.
 
 
