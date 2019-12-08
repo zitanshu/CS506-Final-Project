@@ -4,6 +4,12 @@ Property Value Modeling Project -- Colorado Team
 Team members: Siyi Liu, Jinshu Yang, Zixin Zhang
 
 ## File Description
+### pc_spark.csv:
+The original dataset
+
+### full_train.csv:
+The dataset after cleaning and feature extraction.
+
 ### Colorado_source.py:
 This file generates the initial visualization of the variables. Including the distribution of important variables that are used later on in the models, scatter plot that shows the relationship between important independent variables and y, correlation matrix, and scatterplot matrix.
 
