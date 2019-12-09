@@ -21,4 +21,5 @@ This file contains all the methodologies we tried. Including Linear regression, 
 ### model.ipynb:
 This shows the detail of the variable selection, parameter tuning process and cross validation of our final random tree model.
 
-
+### matching.R:
+This file is written in R that uses matching methods to get the estimated differece between land with and without easement. Final result is based on log_price_per_ha. Note: package "matching" must be installed.
